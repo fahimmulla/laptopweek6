@@ -72,6 +72,6 @@ function person(){
     var Name = parseFloat(document.getElementById('n7').value);
     var occupation = parseFloat(document.getElementById('n8').value);
     var Age = parseFloat(document.getElementById('n9').value);
-    var result =  "Name added to the system:" +person.name + "Age" +person.age + "occupation:" +person.occupation ;
-    alert(result);
+    var results =  "Name added to the system:" +person.name + "Age" +person.age + "occupation:" +person.occupation ;
+    alert(results);
 }
