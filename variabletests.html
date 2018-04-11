@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to my Website</title>
+    <link href="CSS/formatstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="mainContent">
+    <div class="navigationSystem">
+        <ul>
+            <li><a id="home" href="index.html">Homepage </a> </li>
+            <li><a id="aboutme" href="about_me.html">About Me</a> </li>
+            <li><a id="projects" href="projects.html">Project Experiences</a> </li>
+            <li><a id="softwares" href="softwares.html">Software</a> </li>
+            <li><a id="fun" href="fun.html">Cool Codes</a> </li>
+        </ul>
+    </div>
+
+
+    <form name="codingexcercise2b" method="get">
+        Name<input type="text" id="n7"> <br> <br>
+        occupation<input type="text" id="n8"> <br> <br>
+        Age<input type="text" id="n9"> <br> <br>
+        <input type="button" onclick="person()" value="submit">
+    </form>
+
+
+    <script>
+        var myperson = {
+            name: "fahim",
+            age: 21,
+            level: 3,
+        };
+
+        document.writeln(myperson.name +"<br>");
+        document.writeln(myperson.age +"<br>");
+        document.writeln(myperson.level);
+    </script>
+</div>
+</body>
+
+
+</html>
