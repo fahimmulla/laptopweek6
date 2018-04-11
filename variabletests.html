@@ -3,41 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome to my Website</title>
-    <link href="CSS/formatstyle.css" rel="stylesheet" type="text/css" />
+    <link href="CSS/formatstyle.css" rel="stylesheet" type="text/css"/>
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="mainContent">
     <div class="navigationSystem">
         <ul>
-            <li><a id="home" href="index.html">Homepage </a> </li>
-            <li><a id="aboutme" href="about_me.html">About Me</a> </li>
-            <li><a id="projects" href="projects.html">Project Experiences</a> </li>
-            <li><a id="softwares" href="softwares.html">Software</a> </li>
-            <li><a id="fun" href="fun.html">Cool Codes</a> </li>
+            <li><a id="home" href="index.html">Homepage </a></li>
+            <li><a id="aboutme" href="about_me.html">About Me</a></li>
+            <li><a id="projects" href="projects.html">Project Experiences</a></li>
+            <li><a id="softwares" href="softwares.html">Software</a></li>
+            <li><a id="fun" href="fun.html">Cool Codes</a></li>
         </ul>
+
     </div>
-
-
+    </br>
+    </br>
     <form name="codingexcercise2b" method="get">
-        Name<input type="text" id="n7"> <br> <br>
-        occupation<input type="text" id="n8"> <br> <br>
-        Age<input type="text" id="n9"> <br> <br>
-        <input type="button" onclick="person()" value="submit">
+        Who are you ?<input type="button" onclick=myfunction() value="Who">
     </form>
 
+    <h1> Input your details </h1>
+    <form action="">
+        <fieldset>
+            <label> Type your name: </label>
+            <input type="text" id="name" />
+        <input type="button"
+               value="click me"
+               onclick = "addperson()" />
+            <input type="text"
+                   id="outputTxt" />
+            </fieldset>
+    </form>
 
-    <script>
-        var myperson = {
-            name: "fahim",
-            age: 21,
-            level: 3,
-        };
-
-        document.writeln(myperson.name +"<br>");
-        document.writeln(myperson.age +"<br>");
-        document.writeln(myperson.level);
-    </script>
 </div>
+
 </body>
 
 
