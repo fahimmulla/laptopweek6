@@ -179,7 +179,7 @@ function bigDivide() {
                     break;
             }
 
-            window.alert(number);
+            // window.alert(number);
             console.log(number);
         }
 
@@ -189,8 +189,25 @@ function bigDivide() {
 
 
 
+document.addEventListener('DOMContentLoaded',function() {
+    document.querySelector('select[name="ice-cream"]').onchange=icecreamEventHandler;
+},false);
+
+function icecreamEventHandler(event) {
+    // You can use “this” to refer to the selected element.
+    if(!event.target.value) alert('Please Select One');
+    else alert('Your favorite is  ' + event.target.value + ' ice cream.');
+}
 
 
+
+function str4(overlap) {
+
+
+
+
+
+}
 
 
 
