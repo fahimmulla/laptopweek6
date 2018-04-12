@@ -1,0 +1,127 @@
+html {
+    background-color: azure;
+}
+
+
+body {
+    background-color: ghostwhite;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainContent {
+    padding: 0px 5px 10px 5px;
+    text-align-all: center;
+}
+
+.navigationSystem {
+    background-color: ghostwhite;
+    color: blue;
+}
+.navigationSystem li {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    width: 20%;
+}
+.navigationSystem li:hover {
+    background-color: mediumpurple;
+}
+
+.active {
+    background-color: azure;
+    color: cyan;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: mediumpurple;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 10px;
+    border-bottom: 1px solid #888;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5f;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: default;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+div.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+span.centerImage {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: black;
+    color: white;
+}
