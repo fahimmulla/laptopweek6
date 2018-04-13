@@ -200,14 +200,19 @@ function icecreamEventHandler(event) {
 }
 
 
-
-function str4(overlap) {
-
-
-
-
-
+function string4() {
+    let string = document.getElementById('stri4').value;
+    console.log(string);
+    let counter = 0;
+    for(let i = 0; i < string.length; i++) {
+        if(string[i] == string[i+1] && string[i] == string[i + 2]) {
+            counter++;
+        }
+    }
+    document.getElementById("string4output").value = "the number of repeats is" + counter;
 }
+
+
 
 
 
